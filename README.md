@@ -6,8 +6,6 @@ This project applies Logistic Regression to classify breast tumors as benign or 
 
 The study combines statistical feature selection using the Mann–Whitney U test with machine learning classification to identify the most important predictors of malignancy.
 
----
-
 ## Dataset
 
 **Dataset:** Breast Cancer Wisconsin (Diagnostic)
@@ -19,8 +17,6 @@ The study combines statistical feature selection using the Mann–Whitney U test
 * DOI: 10.24432/C5DW2B
 
 The dataset contains measurements extracted from digitized images of fine needle aspirates (FNA) of breast masses.
-
----
 
 ## Methodology
 
@@ -68,8 +64,6 @@ The ten most significant features were selected for modeling.
 * ROC-AUC
 * Confusion Matrix
 
----
-
 ## Results
 
 | Metric    | Value  |
@@ -89,8 +83,6 @@ The ten most significant features were selected for modeling.
 
 The model demonstrates excellent discriminative ability with a near-perfect ROC-AUC score.
 
----
-
 ## Visualizations
 
 The notebook includes:
@@ -101,15 +93,11 @@ The notebook includes:
 * Confusion Matrix heatmap
 * ROC Curve
 
----
-
 ## Key Findings
 
 * Features related to tumor size and boundary irregularity were the strongest predictors of malignancy.
 * The most influential variables included perimeter3, radius3, area3, and concave_points3.
 * Logistic Regression achieved high predictive performance while remaining interpretable.
-
----
 
 ## Technologies Used
 
@@ -122,25 +110,7 @@ The notebook includes:
 * Seaborn
 * UCI ML Repository API
 
----
-
-## Reproducibility
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the notebook:
-
-```bash
-jupyter notebook Breast_Cancer_Logistic_Regression.ipynb
-```
-
----
-
-## Citation
+## References
 
 Street, W. N., Wolberg, W. H., & Mangasarian, O. L. (1993). Nuclear Feature Extraction for Breast Tumor Diagnosis.
 
